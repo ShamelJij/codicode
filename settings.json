@@ -1,0 +1,119 @@
+{
+  "background.enabled": true,
+  "background.loop": false,
+  "background.useDefault": false,
+  "background.useFront": false,
+  "background.style": {
+    "content": "''",
+    "pointer-events": "none",
+    "position": "absolute",
+    "z-index": "99999",
+    "height": "100%",
+    "width": "100%",
+    "background-position": "center",
+    "background-size": "100%",
+    "background-repeat": "no-repeat",
+    "opacity": 0.2
+  },
+  "background.customImages": [
+    "https://picsum.photos/1200/800"
+  ],
+  "editor.minimap.scale": 3,
+  "editor.minimap.maxColumn": 1200,
+  "editor.matchBrackets": false,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 1,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "i",
+        "i"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "lineBreakInsert"
+      ],
+      "silent": true
+    },
+    {
+      "before": [
+        "s"
+      ],
+      "after": [
+        "<C-w>"
+      ]
+    },
+    {
+      "before": [
+        "f",
+        "j"
+      ],
+      "after": [
+        "<C-d>",
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "f",
+        "k"
+      ],
+      "after": [
+        "<C-u>",
+        "z",
+        "z"
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 80,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.language": "en,de-DE",
+  "files.associations": {
+    "*.html": "html"
+  }
+}
