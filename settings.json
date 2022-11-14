@@ -1,0 +1,95 @@
+{
+  "background.enabled": true,
+  "background.loop": false,
+  "background.useDefault": false,
+  "background.useFront": false,
+  "background.style": {
+    "content": "''",
+    "pointer-events": "none",
+    "position": "absolute",
+    "z-index": "99999",
+    "height": "100%",
+    "width": "100%",
+    "background-position": "center",
+    "background-size": "100%",
+    "background-repeat": "no-repeat",
+    "opacity": 0.2
+  },
+  "background.customImages": ["https://picsum.photos/1200/1920"],
+  "editor.minimap.scale": 3,
+  "editor.minimap.maxColumn": 1200,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.list.automaticKeyboardNavigation": false,
+  "editor.matchBrackets": "never",
+  "workbench.iconTheme": "material-icon-theme",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["s"],
+      "after": ["<C-w>"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":noh"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.jumpToBracket"]
+    },
+    {
+      "before": ["g", "a"],
+      "commands": ["editor.emmet.action.matchTag"]
+    },
+    {
+      "before": ["ö", "ö"],
+      "commands": [":w"]
+    },
+    {
+      "before": ["ä", "ä"],
+      "commands": [":qall"]
+    },
+    {
+      "before": ["f", "j"],
+      "after": ["<C-d>", "z", "z"]
+    },
+    {
+      "before": ["f", "k"],
+      "after": ["<C-u>", "z", "z"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "editor.minimap.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "cSpell.language": "en,de-DE",
+  "window.zoomLevel": -1
+}
